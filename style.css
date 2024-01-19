@@ -1,0 +1,110 @@
+body{
+    background-color: #000000;
+    font-family: 'Lilita One', sans-serif;
+    color: white;
+
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu_logo{
+    max-width: 150px;
+}
+
+.menu_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu_lista_item{
+    text-decoration: none;
+    font-size: 24px;
+    color: #da2677;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.menu_curriculo{
+    background-color: #da2677;
+    color: rgb(255, 255, 255);
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url("https://www.icegif.com/wp-content/uploads/2023/12/icegif-95.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_infos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 65vh;
+    padding: 30px;
+    border-radius: 0px 0px 60px 60px;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+.banner_infos_imagem{
+    max-width: 400px;
+    border: 12px solid black;
+    border-radius: 50%;
+}
+
+.banner_infos_nome{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 40px;
+    color: white;
+}
+
+.banner_infos_cargos{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 20px;
+    color: #da2677;
+}
+
+.sobre{
+    max-width: 80vw;
+    margin: 60px auto;
+    border-top: 10px solid #da2677;
+    border-bottom: 10px solid #da2677;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.sobre_infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre_infos_titulo{
+    font-size: 40px;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.sobre_infos_textos{
+    font-size: 24px;
+    line-height: 1.5;
+}
