@@ -240,8 +240,7 @@ body{
 .card_projetos img{
     max-width: 500px;
     border-radius: 40px;
-    transition: 0.5s ease-in-out;
-    background-image: url("https://marriu.github.io/aula5html/");
+
 }
 
 
